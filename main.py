@@ -1,5 +1,4 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
 from src.Services.tabela_teste import select_all_tabela_teste, add_teste
 app = Flask(__name__)
 
